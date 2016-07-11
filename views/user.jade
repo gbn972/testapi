@@ -1,0 +1,15 @@
+html
+  head
+    title Registration Form
+  body
+    form(action='utilisateurs/users/', method='POST')
+      label(for='email') Email: 
+      input(type='email', name='email')
+      br
+      label(for='name') Name: 
+      input(type='text', name='name')
+      br
+      label(for='prenom') prenom: 
+      input(type='text', name='prenom')
+      br
+      input(type='submit')
